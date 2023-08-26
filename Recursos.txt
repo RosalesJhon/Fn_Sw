@@ -1,0 +1,8 @@
+https://apvarun.github.io/toastify-js/# --- notificaciones
+https://floating-ui.com/docs/tutorial --flotantes
+https://fontawesome.com/icons/house?f=classic&s=solid -- iconos y paleta
+https://www.freepik.com/search?format=search&page=3&query=servicio+tecnico&type=photo -- img svg
+https://atroposjs.com/docs -- elementos 3D en html
+https://swiperjs.com/get-started -- sliders
+https://loading.io/ --fondos para paginas
+<script defer src="https://app.embed.im/snow.js"></script> -- copos de nieve en fondo
