@@ -1,9 +1,9 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #000000;
     color: rgb(255, 255, 255);
     height: 100vh;
+    background-image: url(../img/hero-bg.webp);
 }
 body::-webkit-scrollbar {
     width: 0;
@@ -47,12 +47,22 @@ nav ul{
     align-items: center;
     list-style: none;
     font-weight: 600;
-    border-bottom: solid rgb(0, 0, 0) 1px;
+}
+nav ul li{
+    border: solid rgba(0, 0, 0, 0) 2px;
+    padding: 5px;
+    border-radius: 6px;
 }
 nav ul li:hover,
 nav ul li.active{
     cursor: pointer;
-    border-bottom: solid white 1px;
+    border: solid #00cfc8 2px;
+}
+nav ul li.active{
+    cursor: pointer;
+    border: solid #00cfc8 2px;
+    background-color: #00cfc8;
+    color: #000000;
 }
 main{
     width: 100%;
@@ -62,7 +72,10 @@ main{
 .contenedor{
     margin: 5% auto;
     width: 25%;
-    height: 20vh;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgba(191, 198, 198, 0.252);
+    padding: 1rem;
 }
 @media (max-width: 420px){
     .contenedor{
@@ -77,8 +90,8 @@ main{
     color: #00cfc8;
     font-weight: 900;
     letter-spacing: 1px;
-    margin: 1rem;
-    padding-right: 10px;
+    margin: 1rem 50px;
+    font-family: monospace;
     animation: typing 1s steps(30) infinite, blink-caret 0.75s step-end ease-in-out;
 }
 
@@ -102,18 +115,19 @@ main{
 }
 .form-container{
     display: none;
-    width: 90%;
+    width: 100%;
+    margin: 0 auto;
 }
 .form-container label{
     width: 100%;
-    margin: 0 1rem;
+    margin: 0 50px;
     font-weight: 600;
     font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 input[type="text"],input[type="tel"],input[type="email"],input[type="password"]{
     width: 70%;
-    margin: 10px 1rem;
+    margin: 10px 50px;
     padding: .4rem;
     border-radius: 5px;
     color: #00cfc8;
@@ -125,21 +139,30 @@ input:focus {
     outline: none;
 }
 input[type="button"]{
-    margin: 0 1rem;
+    margin: 0 50px;
     background-color: #000000;
     color: white;
     border: #00cfc8 2px solid;
     padding: 6PX;
-    width: 120PX;
+    width: 130PX;
     border-radius: 3px;
 }
 #continue-btn{
     margin-right: 0px ;
 }
 #se-btn{
-    margin-left: 10px;
+    margin-left: 18px;
 }
 #rest-btn{
     width: 74%;
-    margin: 1rem;
+    margin: 1rem 50px;
+}
+.astr{
+    width: 30%;
+    height: auto;
+}
+.astr img{
+    margin: -15px 0;
+    width: 500px;
+    position: static;
 }

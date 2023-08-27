@@ -1,6 +1,6 @@
 const texto = document.getElementById('text');
 const formContainer = document.querySelector('.form-container');
-const text = 'Bienvenido a Web Adas';
+const text = 'Bienvenido a JhonChat';
 let index = 0;
 
 function typeText() {
