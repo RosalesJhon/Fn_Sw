@@ -6,3 +6,5 @@ https://atroposjs.com/docs -- elementos 3D en html
 https://swiperjs.com/get-started -- sliders
 https://loading.io/ --fondos para paginas
 <script defer src="https://app.embed.im/snow.js"></script> -- copos de nieve en fondo
+https://overapi.com/css -- documentacion de todo
+https://animate.style/ animaciones de texto

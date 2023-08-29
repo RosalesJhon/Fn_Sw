@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/a22afade38.js" crossorigin="anonymous"></script>
@@ -9,7 +8,6 @@
     <link rel="stylesheet" href="css/Styles.css">
     <link rel="shortcut icon" href="img/LogoPG.jpg" type="image/x-icon">
 </head>
-
 <body>
     <header>
         <i class="fa-brands fa-grav"></i>
@@ -25,44 +23,54 @@
         </nav>
     </header>
     <main>
+        <div class="bg">
         <div class="contenedor">
             <p id="text"></p>
             <div class="form-container">
                 <form action="php/Registro.php" method="post" id="step-form">
                     <label for="nombres">Nombres</label>
                     <input type="text" name="nombres" id="nombres">
-
                     <label for="apellidos" style="display: none;">Apellidos</label>
                     <input type="text" name="apellidos" id="apellidos" style="display: none;">
-
                     <label for="telefono" style="display: none;">Telefono</label>
                     <input type="tel" name="telefono" id="telefono" style="display: none;">
-
                     <label for="correo" style="display: none;">Correo</label>
                     <input type="email" name="correo" id="correo" style="display: none;">
-
                     <label for="contrasena" style="display: none;">Contraseña</label>
                     <input type="password" name="contrasena" id="contrasena" style="display: none;">
-
                     <label for="contrasena2" style="display: none;">Repita Contraseña</label>
                     <input type="password" name="contrasena2" id="contrasena2" style="display: none;">
-
                     <input type="button" id="continue-btn" value="Continuar"> <!-- Botón para enviar el formulario -->
                     <input type="submit" id="submit-btn" value="Enviar" style="display: none;">
                     <!-- Botón para continuar -->
                     <input type="button" id="se-btn" value="Iniciar sesion">
                     <input type="button" id="rest-btn" value="Restablecer Contraseña">
-
                 </form>
             </div>
-        </div>
+        </div></div>
         <div class="astr">
             <img src="img/astrocat.png" alt="">
+        </div>
+        <div class="mobile-nav">
+            <a href="" class="active">
+                <i class="fa-solid fa-house"></i>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-star"></i>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-question"></i>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-lock"></i>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-qrcode"></i>
+            </a>
         </div>
     </main>
     <script src="js/form.js"></script>
     <script src="js/Active.js"></script>
     <script src="js/AnimacionTxt.js"></script>
 </body>
-
 </html>
